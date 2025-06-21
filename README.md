@@ -33,11 +33,6 @@ SapeGym/
 │ │ │ │ ├── Producto.java
 │ │ │ │ ├── Usuario.java
 
-yaml
-Copiar
-Editar
-
----
 
 ## 🚀 Tecnologías
 
