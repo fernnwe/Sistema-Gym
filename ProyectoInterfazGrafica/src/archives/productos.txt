@@ -1,0 +1,12 @@
+1,Creatina,Mejora tu rendimiento.,creatina,4.9,ProyectoInterfazGrafica/resources/images/productos/java.png
+2,Creatina,Mejora tu rendimiento.,creatina,4.5,ProyectoInterfazGrafica/resources/images/productos/cssAvanzado.png
+3,Creatina,Mejora tu rendimiento.,creatina,4.8,ProyectoInterfazGrafica/resources/images/productos/javaScript.png
+4,Creatina,Mejora tu rendimiento.,creatina,4.4,ProyectoInterfazGrafica/resources/images/productos/kotlin.png
+5,Creatina,Mejora tu rendimiento.,creatina,4.6,ProyectoInterfazGrafica/resources/images/productos/reactJS.png
+6,Creatina,Mejora tu rendimiento.,creatina,4.5,ProyectoInterfazGrafica/resources/images/productos/typeScript.png
+7,Creatina,Mejora tu rendimiento.,creatina,4.7,ProyectoInterfazGrafica/resources/images/productos/adobePremier.png
+8,Creatina,Mejora tu rendimiento.,creatina,4.6,ProyectoInterfazGrafica/resources/images/productos/afterEffects.png
+9,Creatina,Mejora tu rendimiento.,creatina,4.8,ProyectoInterfazGrafica/resources/images/productos/angularJS.png
+10,Creatina,Mejora tu rendimiento.,creatina,4.4,ProyectoInterfazGrafica/resources/images/productos/vueJS.png
+11,Creatina,Mejora tu rendimiento.,Creatina,4.5,ProyectoInterfazGrafica/resources/images/productos/googleCloud.png
+12,CreatinaL,Mejora tu rendimiento.,Creatina,4.3,ProyectoInterfazGrafica/resources/images/productos/graphQL.png

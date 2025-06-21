@@ -1,0 +1,10 @@
+0,Fernando Aguirre,19 años,Ingeniero,319-461-8875,fernando@gmail.com
+1,Jamir Suarez,23 años,Ingeniero,310-340-3882,jamirsua@gmail.com
+2,Deybis Melendez,33 años,Programador,-,Deybismel@gmail.com
+3,Nelson Pellas,28 años,Ingeniero,687-55-45,-nelsonpell@gmail.com
+4,Juan Perez,25 años,Ingeniero,320-836-48-24,juanpere@gmail.com
+5,Nicolas Maduro,23 años,Presidente,-,nicolaswwe@hotmail.com
+6,Brian soto,39 años,Gymrat,321-475-69-22,-briansoto@gmail.com
+7,Mario Castañeda,17 años,Actor,322-980-55-41,marioc80@gmail.com
+8,Goku,45 años,Sayayin,234-456-234,-gokusayan@gmail.com
+9,vegueta,48 años,Sayayin,320-350-12-58,veguetasayan@gmail.com
