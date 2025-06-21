@@ -1,51 +1,114 @@
-# Proyecto Frontend en Java Swing.
+# SapeGym
 
-Este Proyecto Frontend es el resultado que da seguimiento al curso Interfaz Gráfica en Java proporcionado por el grupo Semana de Ingenio y Diseño de la universidad Distrital de Colombia donde se usan una serie de técnicas para realizar GUI modernas y profesionales. 
+**SapeGym** es un sistema de gestión para gimnasios, desarrollado en Java.  
+Permite la administración de usuarios, amigos, productos y acciones dentro del gimnasio, proporcionando una arquitectura organizada y mantenible basada en los principios de la Programación Orientada a Objetos.
 
-Algunas partes del código están inspiradas en otros proyectos, a continuación se deja enlaces de estos: 
-* https://github.com/akashyap2013/Advanced-Login-UI
-* https://ed.team/cursos
+---
 
-Dentro del proyecto Java que aplican una serie de técnicas y se da seguimiento a varios temas que ayudan a la creación de interfaces gráficas profesionales, mantenibles y con código basado en las buenas practicas. El curso puede ser encontrado en una seríe de repositorios donde se explican cada una de las técnicas y temas utilizados en el proyecto.
+## 📦 Estructura del Proyecto
 
-* **Clase 1:** [Estructura básica de una clase UI](https://github.com/CrissUD/InterfazGraficaJavaClase1).
-* **Clase 2:** [Objetos Gráficos Básicos](https://github.com/CrissUD/InterfazGraficaJavaClase2).
-* **Clase 3:** [Objetos Decoradores](https://github.com/CrissUD/InterfazGraficaJavaClase3).
-* **Clase 4:** [Modularización y optimización de código y recursos gráficos](https://github.com/CrissUD/InterfazGraficaJavaClase4).
-* **Clase 5:** [Componentes Gráficos y eventos de acción](https://github.com/CrissUD/InterfazGraficaJavaClase5).
-* **Clase 6:** [Componentes gráficos en una SPA y Routing](https://github.com/CrissUD/InterfazGraficaJavaClase6).
-* **Clase 7:** [Reutilización de Componentes gráficos](https://github.com/CrissUD/InterfazGraficaJavaClase7).
-* **Clase 8:** [Introducción eventos del mouse](https://github.com/CrissUD/InterfazGraficaJavaClase8).
-* **Clase 9:** [Implementación eventos del mouse](https://github.com/CrissUD/InterfazGraficaJavaClase9).
-* **Clase 10:** [Implementación de servicios Lógicos](https://github.com/CrissUD/InterfazGraficaJavaClase10).
-* **Clase 11:** [Uso de Tablas gráficas](https://github.com/CrissUD/InterfazGraficaJavaClase11).
-* **Clase 12:** [Implementación de animaciones](https://github.com/CrissUD/InterfazGraficaJavaClase12).
-* **Clase 13:** [Uso de Graphics y Canvas](https://github.com/CrissUD/InterfazGraficaJavaClase13).
-* **Clase 14:** [Personalización Avanzada de objetos gráficos](https://github.com/CrissUD/InterfazGraficaJavaClase14).
-* **Clase 15:** [Uso de LayoutManager](https://github.com/CrissUD/InterfazGraficaJavaClase15).
+SapeGym/
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ ├── app/
+│ │ │ │ ├── App.java
+│ │ │ │ ├── services/
+│ │ │ │ │ ├── graphicServices/
+│ │ │ │ │ │ ├── GraficoAvanzadoService.java
+│ │ │ │ │ │ ├── ObjGraficoService.java
+│ │ │ │ │ │ ├── RecursosService.java
+│ │ │ │ │ ├── logicServices/
+│ │ │ │ │ │ ├── AccionService.java
+│ │ │ │ │ │ ├── AmigoService.java
+│ │ │ │ │ │ ├── ProductoService.java
+│ │ │ │ │ │ ├── UsuarioService.java
+│ │ │ ├── logic/
+│ │ │ │ ├── ControlAmigos.java
+│ │ │ │ ├── ControlProductos.java
+│ │ │ │ ├── ControlUsuarios.java
+│ │ │ ├── model/
+│ │ │ │ ├── Accion.java
+│ │ │ │ ├── Amigo.java
+│ │ │ │ ├── Producto.java
+│ │ │ │ ├── Usuario.java
 
-## Descripción
+yaml
+Copiar
+Editar
 
-En el ejemplo se presenta: 
-* Interfaz de usuario desde código Java (sin utilizar asistentes de GUI).
-* Enfoque de **ComponentesGráficos** para modularización de responsabilidades.
-* **Modularización de código** separando la creación de objetos gráficos.
-* Optimizacion de recursos para aplicaciones a traves de **servicios**.
-* Optimización de código a traces de **servicios**.
-* Personalización avanzada a traves de **servicio**.
-* Uso de **Servicios Lógicos** para obtención (Simulada) de información externa. 
-* Representación única de objetos de una misma clase (Singleton) para control de **Servicios**.
-* Uso de eventos a traves de **ActionListener, MouseListener, FocusListener**.
-* Discriminación por clases para control de eventos.
-* Uso de **Tablas** y control de información a traves de ellas.
-* Uso de ScrollPane para navegación de interfaz.
-* Uso de **Graphics y Graphics2D** para pintar en pantalla.
-* Animaciones de movimiento con uso de **Timer**.
-* Uso de **LayoutManager** para posicionamiento automático de objetos gráficos.
+---
 
-## Demostración
+## 🚀 Tecnologías
 
-Usted puede ver la aplicación corriendo a través de [Este Link de Youtube](https://youtu.be/_MbVCOJ1BUE). 
+- **Lenguaje:** Java
+- **IDE:** Visual Studio Code
+- **Paradigma:** Programación Orientada a Objetos (OOP)
+- **Patrones utilizados:**
+  - Encapsulamiento
+  - Separación por capas (Modelo, Servicio, Controlador)
+
+---
+
+## 🗂️ Arquitectura
+
+El proyecto está estructurado en varias capas para promover una arquitectura limpia:
+
+- **Model:**  
+  Contiene las clases que representan los datos del sistema.
+
+- **Services:**  
+  Contiene la lógica de negocio para manipular los modelos.  
+  Incluye servicios gráficos y de recursos para la interfaz.
+
+- **Controllers:**  
+  Controla la lógica de presentación e interacción con los usuarios.
+
+- **App:**  
+  Punto de entrada de la aplicación.
+
+---
+
+## 🔎 Principios de POO en el proyecto
+
+- **Encapsulamiento:**  
+  Los atributos de las clases están definidos como `private`, con métodos públicos de acceso (`getters`).
+
+- **Herencia y Polimorfismo:**  
+  Actualmente no se ha implementado herencia ni polimorfismo.  
+  El sistema se puede extender fácilmente para incluir estas características.
+
+---
+
+## ✅ Estado del Proyecto
+
+Proyecto en desarrollo. Actualmente incluye:
+
+- Gestión de Usuarios
+- Gestión de Amigos
+- Gestión de Productos
+- Gestión de Acciones
+
+---
+
+## 💡 Posibles mejoras futuras
+
+- Implementación de interfaces y herencia.
+- Implementación de patrones de diseño como DAO.
+- Persistencia de datos (actualmente no definida).
+- Interfaz gráfica avanzada.
+
+---
+
+## 👨‍💻 Autor
+
+Fernando Aguirre
+
+---
+
+## 📝 Licencia
+
+Uso personal / educativo.
 
 A continuación se presentan algunas capturas.
 
